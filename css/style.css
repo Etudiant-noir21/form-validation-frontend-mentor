@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  hsl(148, 38%, 91%);
+}
+#selectRadio{
+    border: 1px solid  hsl(186, 15%, 59%);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 8px;
+}
+#selectRadio:hover{
+    border: 2px solid  hsl(186, 15%, 59%);
+}
+textarea{
+    border: 1px solid  hsl(186, 15%, 59%);
+}
+textarea:hover{
+    border: 2px solid  hsl(186, 15%, 59%);
+}
+input{
+    border: 1px solid  hsl(186, 15%, 59%);
+}
+
+input:hover{
+    border: 2px solid  hsl(186, 15%, 59%);
+}
+
+.container{
+   
+    min-height: 100vh;
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.container h1{
+    text-align: left;
+}
+.error{
+    color: hsl(0, 66%, 54%);
+}
